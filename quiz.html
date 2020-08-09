@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="wrapper">
+     <div class="quiz">
+         <div class="quiz-header">
+             <div class="quiz-user">
+            <h4 class="as">Welcome <span class="name as"></span></h4>
+             </div>
+             <div class="quiz-timer">
+                 <span id="min">
+                  00</span>: <span id="sec">00</span>
+                  <!-- <span class="time">
+                       00:00
+                  </span> -->
+                 
+             </div>
+        </div>
+             <div class="quiz-body">
+                 <div id="questions">
+                    <!-- <h2>
+                        What is fullform of RAM?
+                    </h2>
+                    <ul class="option-group">
+                        <li class="option">Random Access Memory</li>
+                        <li class="option">Read Only Memory</li>
+                        <li class="option">sd</li>
+                        <li class="option">sds</li>
+                    </ul> -->
+
+                 </div>
+                 
+                 <button class="btn-next" onclick="next()">Next Question</button>
+         </div>
+     </div>
+    </div>
+    <script src="app.js"></script>
+    <script src="userinfo.js"></script>
+    <script src="timer.js"></script>
+</body>
+</html>
